@@ -1,0 +1,25 @@
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true / true
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+56,36,8,45,46,16,51,33,0,63,58,99,8,21,92,24,18,30,91,53,80,16,16,91,50,75,66,95,14,61,75,7,34,67,43,34,55,47,30,40,12,7,45,82,86 - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+false + 9,3,42,34,75,38,62,69,19,2,7,44,98,54,15,22,22,40,25,50,2,29,81,39,40,79,2,34,15,15,37,71,13,70,43,94,6,2,27,74,53,25,28,73,90,78,25,65,94,25,47,15,3,72,0,71,35,39,13,92,67,87,16,40,65,41,26,79,19,64,78
+const greet = name => `Hello, ${name}!`;
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+banana
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
