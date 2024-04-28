@@ -1,0 +1,28 @@
+24 * 58
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+81,9,2,54,26,96,38,53,33,64,27,77,41,31,96,23,30,20,37,50,65,92,49,60,96,19,78,24,25,15,40,35,37,60,1,85,15,3,92,43,40,14,55,14,62,27,0,88,23,2,39,22,55,6,30,37,88,53,22,61,34,44,81,39,76,29,64,96,33,82,22,37,31,74,94,50,29,81,85,7,35,56,17,30 + 99,37,75,74,80,99,81,66,86,24,60,41,25,48,2,7,49,57,77,76,99,79,32,96,61,56,18,75,98,91,4,10,11,68,72,18,85,17,98,65,31,3,1,41,75,3,75,23,95,87,28,40,58,42,69,89,32,14,17,16,16,76,93,61,8,7,48,15,68,64,48,31,61,85,86,61,65,49,33,85,49,37,43,88,48,23,19,20,71,10,70,88,50,30,2,74,59,94,17
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sum = (a, b) => a + b;
+apple
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+true - false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const squareRoot = num => Math.sqrt(num);
+false / 69,96,90,93,88,67,21,79,29,11,64,68,65,41,53,79,59,53,45,50,73,39,67,39,31,28,83,49,8,10,13,76,18,74,13,66,49,11,69,43,64,21,91,1,70,88,40,41,38,69,78,37,83,14,92,27,15,65,39,5,41,66,71,53,11,97,86,69,65,93,53,31,29,67,90,50,31,88,15,66,2,64,24,25,50,58,68,56,20
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+82,14,45,12,27,4,14,9,94,93,22,52,17,79,9,34,76,86,9,41,1,30,93,98,4,4,9,77,93,63,14,8,13,87,77,66,5,25,89,90,57,30,35,19,49,8,6,16,82,35,57,60,61,35,14,31 - 32,83,17,18,24,65,85,69,95,20
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana
+
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
